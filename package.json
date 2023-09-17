@@ -1,0 +1,52 @@
+{
+  "name": "vuemit",
+  "private": false,
+  "version": "1.0.0",
+  "description": "vuemit is a slim EventEmitter implementation",
+  "type": "module",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js",
+      "default": "./dist/index.es.js",
+      "browser": "./dist/index.umd.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinsurs/vuemit.git"
+  },
+  "homepage": "https://github.com/vinsurs/vuemit.git",
+  "bugs": {
+    "url": "https://github.com/vinsurs/vuemit/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "release": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "license": "MIT",
+  "keywords": [
+    "EventEmitter",
+    "vuemit",
+    "events",
+    "listener",
+    "emit"
+  ],
+  "author": {
+    "name": "vinsurs",
+    "email": "2407232109@qq.com"
+  }  
+}
