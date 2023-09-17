@@ -1,18 +1,18 @@
-# vuemit
+# remity
 
-vuemit is a slim EventEmitter implementation.
+remity is a slim EventEmitter implementation.
 
 
 ## Install
 
 ```sh
-npm install --save vuemit
+npm install --save remity
 ```
 
 ## Usage
 
 ```js
-import { EventEmitter } from 'vuemit'
+import { EventEmitter } from 'remity'
 const event = new EventEmitter()
 event.addListener("eventname", callback);        // subscribe a event
 event.emit("eventname", {

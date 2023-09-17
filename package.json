@@ -1,8 +1,8 @@
 {
-  "name": "vuemit",
+  "name": "remity",
   "private": false,
-  "version": "1.0.0",
-  "description": "vuemit is a slim EventEmitter implementation",
+  "version": "1.0.1",
+  "description": "remity is a slim EventEmitter implementation",
   "type": "module",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
@@ -40,7 +40,7 @@
   "license": "MIT",
   "keywords": [
     "EventEmitter",
-    "vuemit",
+    "remity",
     "events",
     "listener",
     "emit"
